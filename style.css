@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(media/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "poppins";
+    src: url(media/Poppins-SemiBold.ttf);
+}
+body{
+    background-image: url(media/background.png);
+    background-position: center;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(26, 26, 26);
+    width: 25%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.subbox{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2vh;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2vh;
+}
+.log p{
+    font-size: 3em;
+    font-family: "poppins";
+    color: rgb(110, 6, 110);
+}
+.externel{
+    display: flex;
+    width: 100%;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vh;
+}
+.externel > div{
+    height: 100%;
+    width: 15%;
+    background-color: white;
+    border-radius: 7px;
+}
+.google a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google img{
+    height: 80%;
+    width: 80%;
+}
+.facebook img, .reddit img, .x img{
+    height: 100%;
+    width: 100%;
+}
+.subbox .username, .password{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+}
+#userInt, #passInt{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    padding-left: 5%;
+    border: none;
+}
+input{
+    font-family: "poppins";
+    color: purple;
+}
+input::placeholder{
+    color: gray;
+    font-style: italic;
+    font-size: 1em;
+    font-family: "arial";
+}
+input:focus{
+    outline: 3px solid purple;
+    color: purple;
+}
+.fpassword a, .signup a{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+}
+.login{
+    width: 40%;
+    height: 6vh;
+    background-color: rgb(110, 6, 110);
+    border: none;
+    border-radius: 10px;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+}
